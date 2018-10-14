@@ -1,0 +1,24 @@
+{
+  "name": "react-stickify",
+  "version": "1.0.0",
+  "description": "Make sticky react components that follow scroll when leaving the viewport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzarkovic/react-stickify.git"
+  },
+  "keywords": [
+    "['react'",
+    "'sticky'",
+    "'scroll']"
+  ],
+  "author": "Milos Zarkovic <mzarkovicm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrzarkovic/react-stickify/issues"
+  },
+  "homepage": "https://github.com/mrzarkovic/react-stickify#readme"
+}
