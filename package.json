@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/mrzarkovic/react-stickify/issues"
   },
-  "homepage": "https://github.com/mrzarkovic/react-stickify#readme"
+  "homepage": "https://github.com/mrzarkovic/react-stickify#readme",
+  "dependencies": {
+    "element-offset-left": "^1.0.1",
+    "element-offset-top": "^1.0.0",
+    "is-mobile": "^2.0.0",
+    "lodash": "^4.17.11",
+    "out-of-viewport": "^1.0.0",
+    "react": "^16.5.2"
+  }
 }

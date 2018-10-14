@@ -1,0 +1,21 @@
+{
+    "name": "element-offset-top",
+    "version": "1.0.0",
+    "description": "Get element's top offset",
+    "repository": {
+      "type" : "git",
+      "url" : "https://github.com/mrzarkovic/element-offset-top.git"
+    },
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "['element'",
+      "'document'",
+      "'offset']"
+    ],
+    "author": "Milos Zarkovic <mzarkovicm@gmail.com>",
+    "license": "ISC"
+  }
+  

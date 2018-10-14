@@ -1,0 +1,23 @@
+{
+  "name": "out-of-viewport",
+  "version": "1.0.0",
+  "description": "Check if scroll height is out of viewport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzarkovic/out-of-viewport.git"
+  },
+  "keywords": [
+    "['viewport'",
+    "'scroll']"
+  ],
+  "author": "Milos Zarkovic <mzarkovicm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrzarkovic/out-of-viewport/issues"
+  },
+  "homepage": "https://github.com/mrzarkovic/out-of-viewport#readme"
+}

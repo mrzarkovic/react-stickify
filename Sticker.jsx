@@ -3,8 +3,8 @@ import throttle from 'lodash/throttle';
 
 import elementOffsetTop from 'element-offset-top';
 import elementOffsetLeft from 'element-offset-left';
-import isMobile from 'Util/isMobile';
-import scrolledPass from 'Util/scrolledPass';
+import isMobile from 'is-mobile';
+import outOfViewport from 'out-of-viewport';
 
 class Sticker extends PureComponent {
     constructor(props) {
@@ -31,7 +31,7 @@ class Sticker extends PureComponent {
 
             this.setState({
                 disabled: isMobile(),
-                sticky: scrolledPass(breakpoint),
+                sticky: outOfViewport(breakpoint),
                 left: elementOffsetLeft(this.positionRef.current),
                 width: this.positionRef.current.offsetWidth
             });
@@ -53,7 +53,7 @@ class Sticker extends PureComponent {
                 this.props.topMargin;
 
             this.setState({
-                sticky: scrolledPass(breakpoint)
+                sticky: outOfViewport(breakpoint)
             });
         }, 10);
     }
